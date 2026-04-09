@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Umemai Labs</title>
+
+<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+<button class="nav-left" onclick="toggleMenu()">
+☰
+</button>
+
+<div class="nav-logo">
+<img src="assets/logo.png" class="logo-img" alt="Logo Umemai Labs">
+<span class="logo-text">Umemai Labs</span>
+</div>
+
+<div class="nav-right">
+
+<button id="themeToggle">🌙</button>
+</div>
+
+</header>
+
+<!-- SIDEBAR -->
+<nav id="sidebar">
+
+<button class="close-btn" onclick="toggleMenu()">✖</button>
+
+<ul>
+<li><a href="index.html">Inicio</a></li>
+<li><a href="experiments.html">Experimentos</a></li>
+<li><a href="logs.html">Logs</a></li>
+<li><a href="opencode.html">Open Code</a></li>
+<li><a href="about.html">Sobre</a></li>
+<li><a href="pagtest.html">Pagina teste</a></li>
+</ul>
+
+</nav>
+
+<!-- OVERLAY (IMPORTANTE: só um!) -->
+<div id="overlay" onclick="toggleMenu()"></div>
+
+
+<footer>
+  <p>© 2026 Umemai Labs</p>
+</footer>
+
+<script src="./script.js" defer></script>
+
+</body>
+</html>

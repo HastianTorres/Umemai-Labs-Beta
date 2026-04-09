@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Umemai Labs</title>
+
+<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+<button class="nav-left" onclick="toggleMenu()">
+☰
+</button>
+
+<div class="nav-logo">
+<img src="assets/logo.png" class="logo-img" alt="Logo Umemai Labs">
+<span class="logo-text">Umemai Labs</span>
+</div>
+
+<div class="nav-right">
+
+<button id="themeToggle">🌙</button>
+</div>
+
+</header>
+
+<!-- SIDEBAR -->
+<nav id="sidebar">
+
+<button class="close-btn" onclick="toggleMenu()">✖</button>
+
+<ul>
+<li><a href="index.html">Inicio</a></li>
+<li><a href="experiments.html">Experimentos</a></li>
+<li><a href="logs.html">Logs</a></li>
+<li><a href="opencode.html">Open Code</a></li>
+<li><a href="about.html">Sobre</a></li>
+<li><a href="pagtest.html">Pagina teste</a></li>
+</ul>
+
+</nav>
+
+<!-- OVERLAY (IMPORTANTE: só um!) -->
+<div id="overlay" onclick="toggleMenu()"></div>
+
+
+<!-- HERO -->
+<section class="hero">
+
+<img src="assets/logo.png" class="hero-logo" alt="Logo Umemai Labs">
+
+<h1>Umemai Labs (UL)</h1>
+<p>
+Um laboratório de projetos onde ideias, tecnologia e aprendizado se transformam em soluções reais. site em construção, ultima atualização em 09/04/2026 14:49 hrs
+</p>
+
+<a class="primary-btn" href="#experiments">Explorar Experimentos</a>
+
+</section>
+
+
+<!-- EXPERIMENTOS -->
+<section class="section" id="experiments">
+
+<h2>Active Experiments</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Password Tool</h3>
+<p>Gerador simples de senhas para testes.</p>
+</div>
+
+<div class="card">
+<h3>CSS Playground</h3>
+<p>Experimentos com animações e layouts.</p>
+</div>
+
+<div class="card">
+<h3>AI Prompt Lab</h3>
+<p>Ferramentas e estudos com IA.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- LOGS -->
+<section class="section" id="logs">
+
+<div class="container">
+  <h1>Experiment Logs</h1>
+
+ <div class="logs">
+
+  <a href="log1.html" class="log">
+    Experiment Log #01 — Criação do site da Umemai Labs
+  </a>
+
+  <a href="log2.html" class="log">
+    Experiment Log #02 — Hospedando o site gratuitamente
+  </a>
+
+</div>
+</div>
+
+<footer>
+  <p>© 2026 Umemai Labs</p>
+</footer>
+
+<script src="./script.js" defer></script>
+
+</body>
+</html>
